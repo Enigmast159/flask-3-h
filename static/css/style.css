@@ -1,27 +1,10 @@
-body {
-display: flex;
-justify-content: center;
-align-items: center;
 h4 {
     color: forest;
     padding-left: 20px;
 }
-.emblem {
-position: relative;
-width: 100px;
-height: 100px;
+.sttd {
+    background-color: LightSeaGreen;
 }
-
-.emblem::before {
-content: "";
-position: absolute;
-right: 100px;
-top: 10px;
-width: 100px;
-height: 30px;
-background-image: url(../img/MARS.png);
-background-size: 100px 100px;
-background-repeat: no-repeat;
-background-position: center;
-object-fit: cover;
+.iftd {
+    background-color: #e0007b;
 }
