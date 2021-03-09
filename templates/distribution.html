@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2 class="text-center">Размещение по каютам</h2>
+{% set per = 'Каюта №' %}
+    {% for i in data %}
+        {% if loop.index == 1 %}
+            <p>{{i}} - {{per}} {{loop.index}} - капитан корабля</p>
+        {% else %}
+            <p>{{i}} - {{per}} {{loop.index}}</p>
+        {% endif %}
+    {%endfor%}
+{% endblock %}
